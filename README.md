@@ -12,19 +12,14 @@
 
 1. Write a function `absoluteValue` that **returns** the absolute value of a number. If the value is not a number, it returns `null`. Complete this function **without** using Math.abs() .
 ```
-absoluteValue(10.35)    //returns 10.35
-absoluteValue("hello")  //returns null
-absoluteValue(-3)       //returns 3
+
 ```
 
-2. Write a function `multiplesOfSixAndNine` that **console logs** all positive numbers from 1 to 100, if a number is a multiple of 6 and a mutliple of 9.
+2. Write a function named `sumOfNotThreeAndFive` that returns the sum of all numbers that are *not* multiples of 3 and multiples of 5 from 1 to 1000.
 ```
-multiplesOfSixAndNine() 
-// 18
-// 36
-// 54
-// 72
+sumOfNotThreeAndFive() //returns 333666
 ```
+
 
 ### Bonus 
 3. Write a function `multiplesOfFourAndSix` that **returns an array** of all positive numbers from 1 to 100 if that number is a multiple of 4 and a mutliple of 6. 
